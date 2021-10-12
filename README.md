@@ -1,2 +1,2 @@
 # studentsweb
-Revamp project for students.iitmandi.ac.in
+Revamp project for homepage students.iitmandi.ac.in
