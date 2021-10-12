@@ -1,2 +1,2 @@
-# studentsweb
-Revamp project for students.iitmandi.ac.in
+# Grievances website
+Anti Ragging Committee ,ICC,SWDC,RSGRC
