@@ -1,2 +1,3 @@
-# studentsweb
-Revamp project for students.iitmandi.ac.in
+# GCS IIT Mandi
+GCS: Guiding and Counselling Services organisation of IIT MANDI
+
