@@ -1,3 +1,3 @@
 # GCS IIT Mandi
-GCS: Guiding and Counselling Services organisation of IIT MANDI
+GCS: Guidance and Counselling Service organisation of IIT MANDI
 
