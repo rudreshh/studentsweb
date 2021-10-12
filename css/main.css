@@ -69,7 +69,15 @@
     }
 }
 
-
+:root {
+    --mblue: #366feb;
+    --dblue: rgba(23, 9, 226, 0.65);
+    --white: #fff;
+    --grey : #59635c;
+    --shadow:#09bc8921;
+    --shadow2: #09bc8981;
+    --tshadow: #74b3ce7c;
+  }
 
 /* ===================================================================
  * # base style overrides
@@ -106,7 +114,7 @@ body {
  * ## links 
  * ------------------------------------------------------------------- */
 a {
-    color: #84be5b;
+    color: var(--mblue);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -414,7 +422,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #84be5b;
+    background: var(--mblue);
     position: absolute;
     left: -16px;
     top: 11px;
@@ -423,7 +431,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #84be5b;
+    color: var(--mblue);
 }
 
 dd {
@@ -940,8 +948,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: #84be5b;
-    border-color: #84be5b;
+    background: var(--mblue);
+    border-color: var(--mblue);
     color: #ffffff;
 }
 
@@ -1153,7 +1161,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #84be5b;
+    color: var(--mblue);
 }
 
 .stats-tabs li a em {
@@ -1459,7 +1467,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     background-color: #F5F4F3;
@@ -1492,8 +1500,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .s-header__nav li.has-children>a::after {
-    border-bottom: 1px solid #6ba441;
-    border-right: 1px solid #6ba441;
+    border-bottom: 1px solid var(--mblue);
+    border-right: 1px solid var(--mblue);
     content: '';
     display: block;
     height: 5px;
@@ -1760,7 +1768,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         background-color: transparent;
         border: none;
         border-radius: 0;
-        color: #84be5b;
+        color: var(--mblue);
     }
     .s-header__nav ul {
         opacity: 1;
@@ -2078,7 +2086,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .s-footer__list li a:hover, .s-footer__list li a:focus {
-    color: #84be5b;
+    color: var(--mblue);
 }
 
 .s-footer__info {
@@ -2107,7 +2115,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .s-footer__social li a:hover, .s-footer__social li a:focus {
-    color: #84be5b;
+    color: var(--mblue);
 }
 
 /* ------------------------------------------------------------------- 
@@ -2188,7 +2196,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 5.6rem;
     width: 5.6rem;
     border-radius: 50%;
-    background-color: #84be5b;
+    background-color: var(--mblue);
     -webkit-transition: all .3s;
     transition: all .3s;
     position: relative;
@@ -2311,6 +2319,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: auto;
 }
 
+.entry__content{
+    text-align: justify;
+}
 .entry__content-media {
     margin: 3.2rem 0 4.8rem;
 }
