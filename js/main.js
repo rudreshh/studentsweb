@@ -165,3 +165,14 @@
     })();
 
 })(jQuery);
+
+function quickfn(idd){
+    y=("#"+idd+"-div")
+    if($(y).css("display")=="none"){
+        $(".quick-links-div").css("display","none");
+        $(y).css("display","block");
+    }
+    else{
+        $(y).css("display","none");
+    }
+}
