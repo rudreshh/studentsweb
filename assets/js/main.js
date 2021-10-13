@@ -47,7 +47,7 @@ $(function() {
         var scrollbarLocation = $(this).scrollTop();
 
         scrollLink.each(function() {
-
+          // console.log($(this.hash).offset().top)
           var sectionOffset = $(this.hash).offset().top - 90;
 
           if ( sectionOffset <= scrollbarLocation ) {
@@ -119,9 +119,7 @@ $(function() {
         arrows: false,
     });
     
-    
     //===== Back to top
-    
     // Show or hide the sticky footer button
     $(window).on('scroll', function(event) {
         if($(this).scrollTop() > 600){
