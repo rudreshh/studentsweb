@@ -1411,8 +1411,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .s-header__content {
     background-color: #ffffff;
-    background-image: url(../images/header-content-bg_@2x.png);
-    background-size: 361px 256px;
+    background-image: url(../images/header-content-bg.png);
+    background-size: 356px 256px;
     background-repeat: no-repeat;
     background-position: right top;
     min-height: 30rem;
@@ -2050,8 +2050,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-footer {
     padding-top: 4.8rem;
-    margin-bottom: 4.2rem;
     font-size: 1.422rem;
+    margin-bottom: 5rem;
     line-height: 2.8rem;
     position: relative;
     display: flex;
@@ -2153,9 +2153,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .ss-copyright {
     font-family: "Open Sans", sans-serif;
-    margin: 0;
-    padding: 3.2rem 1.6rem .8rem 1.6rem;
     width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: var(--grey);
 }
 
 .ss-copyright span {
@@ -2645,7 +2647,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .quick-links-div{
     display: none;
-    background-color: #bcd9ee;
+    /* background-color: #bcd9ee; */
     padding: 10px 0px;
 }
 .quick-links-div h1,h4{
