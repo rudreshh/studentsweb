@@ -886,7 +886,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill, 
 select:-webkit-autofill:hover, 
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #9fcc7f;
+    -webkit-text-fill-color: var(--mblue);
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s;
 }
@@ -1403,7 +1403,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 100%;
     height: .6rem;
-    background-color: #9fcc7f;
+    background-color: var(--mblue);
     position: absolute;
     top: 0;
     left: 0;
@@ -1429,15 +1429,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: Georgia, serif;
+    font-family: 'Quattrocento', serif;
     font-weight: 400;
     font-size: 7.2rem;
     line-height: 1;
-    letter-spacing: -.45rem;
+    letter-spacing: -.20rem;
 }
 
 .s-header__logotext a {
-    color: #9fcc7f;
+    color: var(--mblue);
 }
 
 .s-header__tagline {
@@ -1606,7 +1606,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-menu-toggle {
     z-index: 101;
     display: none;
-    background-color: #9fcc7f;
+    background-color: var(--mblue);
     height: 4.8rem;
     width: 5.2rem;
     line-height: 4.8rem;
@@ -1614,7 +1614,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    color: #9fcc7f;
+    color: var(--mblue);
     outline: none;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -1954,7 +1954,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .s-content__sidebar .link-list li a:hover, .s-content__sidebar .link-list li a:focus {
-    color: #9fcc7f;
+    color: var(--mblue);
 }
 
 /* tag cloud */
@@ -1985,7 +1985,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .s-content__sidebar .tagcloud a:hover, .s-content__sidebar .tagcloud a:focus {
     color: #ffffff;
-    background: #9fcc7f;
+    background: var(--mblue);
 }
 
 /* search  */
@@ -2377,7 +2377,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.6rem;
     text-transform: none;
     letter-spacing: 0;
-    color: #9fcc7f;
+    color: var(--mblue);
 }
 
 /* -------------------------------------------------------------------
@@ -2452,7 +2452,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .post-list-nav a[rel="next"]:hover, 
 .post-list-nav a[rel="next"]:focus {
     color: #ffffff;
-    background-color: #9fcc7f;
+    background-color: var(--mblue);
 }
 
 /* -------------------------------------------------------------------
