@@ -2626,3 +2626,33 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         border-left: none;
     }
 }
+
+/* Quick links */
+
+.quick-links{
+    min-width: 60vw;
+}
+.quick-links-btns{
+    justify-content: center;
+    align-items: center;
+}
+.quick-links-btns button{
+    letter-spacing: 2px;
+}
+.quick-links-btns button:hover{
+    background-color: var(--mblue);
+    border-color: var(--mblue);
+}
+.quick-links-div{
+    display: none;
+    background-color: #bcd9ee;
+    padding: 10px 0px;
+}
+.quick-links-div h1,h4{
+    margin-top: 0;
+}
+.mybtn{
+    height: 100px;
+    line-height: normal;
+    padding: 3rem 2.5rem;
+}
