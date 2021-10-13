@@ -2656,3 +2656,52 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: normal;
     padding: 3rem 2.5rem;
 }
+
+@import "https://fonts.googleapis.com/css?family=Lora";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css";  
+.team {
+    width:100%; padding-left:30px;
+    text-align:center;
+    background-color:#fff;
+}
+a, a:hover {
+    text-decoration:none;
+}
+.item {
+    margin:0px auto;
+}
+h2, h3, h4, h5,p {margin:0px;}
+
+/* ---- UI Style ----- */
+.item {
+    background-color:#fff;
+     width:200px;
+     display:inline-block;
+     margin:30px;
+}
+.item .image {overflow:hidden; }
+.item .image img { width:100%; }
+
+.item .text {padding:1em; text-align:center;}
+.item .text figcaption {position:relative; z-index:1; }
+.item .text a {color:rgba(0,0,0,0.70);}
+.item .text p {
+  color:rgba(0,0,0,0.70); 
+  line-height:22px; 
+  font-weight:300;
+  font-size:13px;
+}
+.item .text .fa {
+  font-size:18px;
+  width:15px;
+  height:15px;
+  padding:13px;
+  border:solid 1px rgba(0,0,0,0.8);
+  border-radius:50%;
+}
+/* ---- Responsive Code ---- */
+@media (max-width: 768px) {
+  .item {width:100%;}
+}
+
+/* ---- UI Style Ent ----- */
