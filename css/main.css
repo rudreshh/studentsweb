@@ -1411,8 +1411,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .s-header__content {
     background-color: #ffffff;
-    background-image: url(../images/header-content-bg_@2x.png);
-    background-size: 361px 256px;
+    background-image: url(../images/header-content-bg.png);
+    background-size: 356px 256px;
     background-repeat: no-repeat;
     background-position: right top;
     min-height: 30rem;
