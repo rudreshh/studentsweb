@@ -730,7 +730,7 @@ p {
   .about-image::before {
     position: absolute;
     content: '';
-    background-image: url(../images/about/dots.jpg);
+    /* background-image: url(../images/about/dots.jpg); */
     background-position: center center;
     background-size: 100%;
     width: 375px;
@@ -848,6 +848,7 @@ p {
 
 .single-services {
   padding: 50px 30px;
+  min-height: 19em;
   background-color: var(--white);
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -986,7 +987,7 @@ p {
     padding-bottom: 80px; } }
 
 .single-team .team-image img {
-  width: 100%; }
+  width: 70%; }
 
 .single-team .team-content {
   width: 80%;
@@ -1001,6 +1002,9 @@ p {
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .single-team .team-content {
       padding: 30px 0; } }
+    .team-name{
+      font-family: 'Hind', sans-serif;
+    }
   .single-team .team-content .team-name a {
     font-size: 18px;
     font-weight: 600;
@@ -1014,7 +1018,7 @@ p {
     .single-team .team-content .team-name a:hover {
       color: var(--lpink); }
   .single-team .team-content .sub-title {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--grey); }
   .single-team .team-content .social {
     margin-top: -35px;
@@ -1270,6 +1274,10 @@ p.form-message.error {
   line-height: 26px;
   font-size: 16px; }
 
+.footer-space{
+  background-color: rgba(241, 241, 241, 0.603);
+}  
+
 .footer-logo .footer-info li {
   margin-top: 20px; }
   .footer-logo .footer-info li .single-info {
@@ -1407,3 +1415,66 @@ p.form-message.error {
   .back-to-top:hover {
     color: var(--lpink);
     background-color: var(--white); }
+
+    section#testimonials {
+      overflow: visible;
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .col1 {
+      width: 100%;
+      /* border-bottom: 1px solid #a55959; */
+      overflow: visible;
+      position: relative;
+      padding: 3em;
+    }
+  
+    .col1:before {
+      content: "\f10d";
+      font-family: FontAwesome;
+      font-size: 5em;
+      /*color: rgba(72, 106, 140, .4);*/
+      color: rgba(76, 182, 193, .3);
+      z-index: -100;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+    }
+    p.person {
+      text-align: right;
+      color: #4cb6c1;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+    p.person:before {
+      /* content: "\f007"; */
+      font-family: FontAwesome;
+      color: #2d2d2d;
+      margin-right: .6em;
+    }
+    .testi{
+      margin-top: 10px;
+    }
+    @media (min-width: 960px) {
+      
+       h1 {
+         font-size: 3em;
+       }
+      
+    }
+  
+    @media (max-width: 450px) {
+  
+      h1 {
+        font-size: 1.8em;
+        transition: font-size .5s ease;
+      }
+  
+    }
+
+.copyr{
+  color: #fff;
+  background-color: rgb(45, 54, 63) ;
+}
