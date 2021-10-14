@@ -143,7 +143,7 @@ body {
 
 .site-heading {
 	position: absolute;
-	top: 400px;
+	top: 63.29113924050633vh;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
 	text-align: center;
@@ -197,7 +197,7 @@ a:hover {
 
 .bg-1 {
 
-	background: url(../images/bgm.jpg) fixed no-repeat;
+	background: url(../images/bgms.jpg) fixed no-repeat;
 	background-size: cover;
 
 }
@@ -1319,8 +1319,8 @@ hr {
 	color: rgb(29, 161, 242);
 }
 
-.social-links:hover .ti-instagram {
-	color: rgb(255, 80, 80);
+.social-links:hover .ti-linkedin {
+	color: rgb(66, 103, 178);
 }
 
 .icon-box {
