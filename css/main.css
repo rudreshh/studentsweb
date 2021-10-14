@@ -2634,12 +2634,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .quick-links{
     min-width: 60vw;
 }
-.quick-links-btns{
+.quick-links-btns .row{
     justify-content: center;
     align-items: center;
-}
-.quick-links-btns button{
-    letter-spacing: 2px;
 }
 .quick-links-btns button:hover{
     background-color: var(--mblue);
@@ -2647,7 +2644,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .quick-links-div{
     display: none;
-    /* background-color: #bcd9ee; */
     padding: 10px 0px;
 }
 .quick-links-div h1,h4{
@@ -2657,6 +2653,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 100px;
     line-height: normal;
     padding: 3rem 2.5rem;
+    letter-spacing: 2px;
+    width: 230px;
 }
 
 @import "https://fonts.googleapis.com/css?family=Lora";
