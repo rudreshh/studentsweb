@@ -1686,6 +1686,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transform: rotate(225deg);
 }
 
+/*----------
+selective headings blue
+-----------*/
+
+.h-blue{
+    color: #1f469b;
+}
+
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * header
