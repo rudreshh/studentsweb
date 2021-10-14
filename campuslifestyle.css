@@ -23,18 +23,23 @@ body {
     padding-left: 0;
     margin: 0;
     width: 90px;
-  }
-  #header.header-transparent {
-    background: transparent;
-  }
-  #header.header-scrolled {
-    background: rgba(3, 102, 252, 0.9);
-    height: 70px;
-    transition: all 0.5s;
-  }
-  .scrolled-offset {
-    margin-top: 70px;
-  }
+}
+#header.header-transparent {
+  background: transparent;
+}
+#header.header-scrolled {
+  background: rgba(3, 102, 252, 0.9);
+  height: 70px;
+  transition: all 0.5s;
+}
+#hero .hero-container .underline{
+  background-color: #fff;
+  height: 1px;
+  width: 40%;
+}
+.scrolled-offset {
+  margin-top: 70px;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -149,6 +154,9 @@ body {
     .navbar .dropdown .dropdown:hover > ul {
       left: -100%;
     }
+    #hero .hero-container .underline{
+      width: 45%;
+    }
   }
   /**
 * Mobile Navigation 
@@ -169,6 +177,9 @@ body {
   
     .navbar ul {
       display: none;
+    }
+    #hero .hero-container .underline{
+      width: 55%;
     }
   }
   .navbar-mobile {
@@ -257,6 +268,9 @@ body {
     #hero {
       background-attachment: fixed;
     }
+    #hero .hero-container .underline{
+      width: 50;
+    }
   }
   #hero:before {
     content: "";
@@ -287,11 +301,19 @@ body {
     text-transform: uppercase;
     color: #fff;
   }
+  #hero h4 {
+     color: #fff;
+  }
+
   @media (max-width: 768px) {
     #hero h1 {
       font-size: 28px;
       line-height: 36px;
-    } }
+    }
+    #hero .hero-container .underline{
+      width: 40%;
+    }
+  }
 
     /* #carousel {
       box-sizing: border-box;
@@ -366,4 +388,10 @@ body {
       #carousel-para {
         font-size: 28px;
         line-height: 36px;
-      } }
+      }
+    }
+    @media (max-width: 480px) {
+      #hero .hero-container .underline{
+        width: 75%;
+      }
+    }
