@@ -241,7 +241,7 @@ a:hover {
 	margin:auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-top: 60px;
+	margin-top: 2%;
 	width:90%;
 	max-width: 850px;
 	text-align:center;
@@ -275,7 +275,8 @@ a:hover {
  /*to control size of carousel*/
 
  #carouselExampleControls{
-	margin: 2% auto;
+	margin: 5% auto;
+	margin-bottom: 1%;
 	width: 70%;
 	align-self: center;
 	height: auto;}
@@ -290,9 +291,11 @@ a:hover {
 #gymkhana {
 	color:#000;
 	text-align: right;
+	margin-right:3%;
 	margin-top: 10px ;
+	margin-bottom: 2%;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: calc(1.5px + 1vw);
+	font-size: 80%;
 	
 }
 #gymkhana a{
