@@ -2681,11 +2681,11 @@ h2, h3, h4, h5,p {margin:0px;}
 /* ---- UI Style ----- */
 .item {
     background-color:#fff;
-     width:200px;
+     width:150px;
      display:inline-block;
-     margin:30px;
+     margin:20px;
 }
-.item .image {overflow:hidden; }
+.item .image {overflow-x:hidden; }
 .item .image img { width:100%; }
 
 .item .text {padding:1em; text-align:center;}
@@ -2707,7 +2707,7 @@ h2, h3, h4, h5,p {margin:0px;}
 }
 /* ---- Responsive Code ---- */
 @media (max-width: 768px) {
-  .item {width:100%;}
+  .item {width:70%;}
 }
 
 /* ---- UI Style Ent ----- */
