@@ -2647,12 +2647,9 @@ selective headings blue
 .quick-links{
     min-width: 60vw;
 }
-.quick-links-btns{
+.quick-links-btns .row{
     justify-content: center;
     align-items: center;
-}
-.quick-links-btns button{
-    letter-spacing: 2px;
 }
 .quick-links-btns button:hover{
     background-color: var(--mblue);
@@ -2670,6 +2667,8 @@ selective headings blue
     height: 100px;
     line-height: normal;
     padding: 3rem 2.5rem;
+    letter-spacing: 2px;
+    width: 230px;
 }
 
 @import "https://fonts.googleapis.com/css?family=Lora";
