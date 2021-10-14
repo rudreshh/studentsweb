@@ -42,7 +42,7 @@
 		//  Testimonial Slider
 		// -----------------------------
 		$('.testimonial-slider').slick({
-			slidesToShow: 2,
+			slidesToShow: 1,
 			infinite: true,
 			arrows: false,
 			autoplay: true,
