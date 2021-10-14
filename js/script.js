@@ -324,10 +324,10 @@ $(document).ready(function () {
 	$("#navbar-part").css("width", (window.innerWidth > 0) ? window.innerWidth : screen.width);
 });
 
-function myFunction() {
+function readMore() {
 	var dots = document.getElementById("dots");
 	var moreText = document.getElementById("more");
-	var btnText = document.getElementById("myBtn");
+	var btnText = document.getElementById("readMoreBtn");
   
 	if (dots.style.display === "none") {
 	  dots.style.display = "inline";
