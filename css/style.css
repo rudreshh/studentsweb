@@ -896,6 +896,7 @@ button:focus,
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
+#more {display: none;}
 
 @media (max-width: 768px) {
 
