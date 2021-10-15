@@ -324,18 +324,17 @@ $(document).ready(function () {
 	$("#navbar-part").css("width", (window.innerWidth > 0) ? window.innerWidth : screen.width);
 });
 
-function readMore() {
-	var dots = document.getElementById("dots");
-	var moreText = document.getElementById("more");
-	var btnText = document.getElementById("readMoreBtn");
-  
-	if (dots.style.display === "none") {
-	  dots.style.display = "inline";
-	  btnText.innerHTML = "read more";
-	  moreText.style.display = "none";
-	} else {
+function readMore(event) {
+	var btnText = event.target;
+	var moreText = btnText.previousElementSibling;
+	var dots = moreText.previousElementSibling;
+	if (moreText.style.display === "none") {
 	  dots.style.display = "none";
 	  btnText.innerHTML = "read less";
 	  moreText.style.display = "inline";
+	} else {
+	  dots.style.display = "inline";
+	  btnText.innerHTML = "read more";
+	  moreText.style.display = "none";
 	}
   }

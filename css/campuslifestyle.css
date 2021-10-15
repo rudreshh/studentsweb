@@ -260,7 +260,7 @@ margin-top: 70px;
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(images/bg1.jpg) top center;
+  background: url(../images/bg1.jpg) top center;
   background-size: cover;
   position: relative;
 }
@@ -269,7 +269,7 @@ margin-top: 70px;
     background-attachment: fixed;
   }
   #hero .hero-container .underline{
-    width: 50;
+    width: 50%;
   }
 }
 #hero:before {
@@ -420,14 +420,13 @@ flex-direction: column;*/
   }
 }
 
-#more {display: none;}
-#dots { color: rgb(0, 81, 255);}
-#readMoreBtn {
+.more {display: none;}
+.dots { color: rgb(0, 81, 255);}
+.readMoreBtn {
 	background-color: #ffffff; /* Green */
 	border: none;
 	color: rgb(0, 81, 255);
 	text-align: center;
-	text-decoration: none;
 	display: inline-block;
 	font-size: 0.8em;
 	transition-duration: 0.4s;
