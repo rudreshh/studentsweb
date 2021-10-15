@@ -1,0 +1,139 @@
+.team-boxed {
+	color: #313437;
+	background-color: #eef4f7;
+	background-image: url("../images/bg/contact-bg.jpg");
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.team-boxed p {
+	color: #7d8285;
+}
+
+.team-boxed h2 {
+	font-weight: bold;
+	margin-bottom: 40px;
+	padding-top: 40px;
+	color: inherit;
+}
+
+@media (max-width:767px) {
+	.team-boxed h2 {
+		margin-bottom: 25px;
+		padding-top: 25px;
+		font-size: 24px;
+	}
+}
+
+.team-boxed .intro {
+	font-size: 16px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.team-boxed .intro p {
+	margin-bottom: 0;
+}
+
+.team-boxed .people {
+	padding: 50px 0;
+}
+
+.team-boxed .item {
+	text-align: center;
+}
+
+.team-boxed .item .box {
+	text-align: center;
+	padding: 30px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+.team-boxed .item .name {
+	font-weight: bold;
+	margin-top: 28px;
+	margin-bottom: 8px;
+	color: inherit;
+}
+
+.team-boxed .item .title {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #d0d0d0;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+
+.team-boxed .item .description {
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.team-boxed .item img {
+	max-width: 160px;
+}
+
+.team-boxed .social {
+	font-size: 18px;
+	color: #a2a8ae;
+}
+
+.team-boxed .social a {
+	color: inherit;
+	margin: 0 10px;
+	display: inline-block;
+	opacity: 0.7;
+}
+
+.team-boxed .social a:hover {
+	opacity: 1;
+}
+
+/*------------FOOTER CSS---------------*/
+
+
+footer {
+	padding: 25px;
+	background-color: #1E3163;
+	background-image: linear-gradient(to right, #b7e0fc 0%, #f5c3e8 100%);
+	background-size: 100% 3px;
+	background-position: 0% 0%, 0% 100%;
+	background-repeat: no-repeat;
+
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+
+
+.footer-heading {
+	font-weight: 700;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.footer-links {
+	list-style: none;
+
+}
+
+.footer-links li a {
+	color: #5D5D5D;
+	font-size: 0.9em;
+}
+
+.footer-links li a:hover {
+	color: #fff;
+}
