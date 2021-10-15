@@ -212,7 +212,7 @@ a:hover {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("images/hero.jpg") top center;
+    background: url("../images/studentLife/bg.jpg") top center;
     background-size: cover;
     position: relative;
   }
