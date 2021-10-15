@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:300,400,600,700,800");
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  html {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    min-height: 100%;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 20px;
+    color: black; 
+    font-weight: 400;
+    size: 30px;
+    background-image: url("./3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: image 60s infinite alternate-reverse;
+  }
+
+  @keyframes image {
+  0% {
+    background-image: url("./images/3.jpg");
+  }
+  50% {
+    background-image: url("./images/4.jpg");
+  }
+  100% {
+    background-image: url("./images/5.jpg");
+  }
+}
+  a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
+  h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+  .local-wrapper {
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    margin: 0px auto;
+    width: 75%;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 0px;
+  }
+  
+   .local-left {
+    margin: 0px 10px;
+  }
+  
+  .local-right {
+    margin: 0px 10px;
+
+  }
+  @media screen and (max-width: 1400px) {
+    .local-wrapper{
+      width: 80%;
+    }
+    body{
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  @media screen and (max-width: 1032px) {
+    .local-wrapper{
+      width: 90%;
+    }
+    body{
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  @media screen and (max-width: 940px) {
+    .local-wrapper{
+      width: 90%;
+      flex-direction: column;
+    }
+    .dean_image{
+      height: 250px;
+      width: 250px;
+      margin: 10px 0px;
+    }
+    body{
+      background-size: 200% 230%;
+      background-repeat: no-repeat;
+    }
+  }
+@media screen and (max-width: 364px) {
+
+    body{
+      background-size: 200% 300%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  

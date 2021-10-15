@@ -1,3 +1,2 @@
-# GCS IIT Mandi
-GCS: Guidance and Counselling Service organisation of IIT MANDI
-
+# studentsweb
+Revamp project for homepage students.iitmandi.ac.in

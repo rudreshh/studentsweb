@@ -1,0 +1,107 @@
+#about-us
+{
+	width: 100%;
+	padding: 50px 0;
+	/* background: #fff */
+}
+.title-text{
+	text-align: center;
+	
+}
+.title-text h1{
+	font-size: 50px;
+}
+.about-us-box{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+	padding: 70px;
+}
+.AB{
+	flex-basis: 30%;
+	text-align: left;
+	border-radius: 7px;
+	margin-bottom: 20px;
+	color: black;
+	position: relative;
+	/* padding-bottom: 3px; */
+}
+.AB img{
+	width: 95%;
+	height: 350px;
+	border-radius: 7px;
+	object-fit: cover;
+}
+.overlay{
+	width: 95%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	border-radius: 7px;
+	cursor: pointer;
+	background: linear-gradient(rgba(0,0,0,0.05),#6495ED 75%);
+	opacity: 0;
+	transition: 1s;
+}
+.AB:hover .overlay{
+	opacity: 1;
+}
+.about-us-desc{
+	width: 80%;
+	position: absolute;
+	color: white;
+	bottom: 0;
+	left: 50%;
+	opacity: 0;
+	transform: translateX(-55%);
+	transition: 1s;
+}
+.about-us-desc p{
+	font-size: 14px;
+}
+.AB:hover .about-us-desc{
+	/* bottom: 40%; */
+	opacity: 1;
+}
+@media screen and (max-width: 967px){
+	.AB{
+		flex-basis: 100%;
+		margin-bottom: 30px;
+	}
+	.about-us-desc p{
+	font-size: 10px;
+    }
+    hr{
+    	margin: 5px auto;
+    }
+    .AB:hover .about-us-desc{
+	bottom: 25% important;
+	
+}
+}
+@media screen and (max-width: 518){
+	.about-us-box{
+		padding: 30%;
+	}
+	.AB{
+		flex-basis: 100%;
+		margin-bottom: 30px;
+	}
+	.about-us-desc p{
+	font-size: 8px;
+    }
+    hr{
+    	margin: 5px auto;
+    }
+    .AB:hover .about-us-desc{
+	bottom: 25% important;
+	
+}
+}
+
+
+/* .image_footer{
+    
+} */
