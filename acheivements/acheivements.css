@@ -30,33 +30,39 @@
     border-radius: 20%;
 }
 
-.dashboard-cards .card-title .img{
-        border-radius: 5px 5px 0 0;
-}
-
 .dashboard-cards .card {
-    background: #dcf0ef;
     background: #fff;
     display: inline-block;
     -webkit-perspective: 1000;
     perspective: 1000;
     z-index: 20;
     padding: 0 !important;
-    margin: 5px 5px 5px 5px;
+    margin: 20px 50px 20px 50px;
     position: relative;
     -webkit-transition: all 0.3s 0s ease-in;
     transition: all 0.3s 0s ease-in;
-    z-index: 1;
     max-width: 90%;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: "Arvo", serif;
     font-weight: 700;
+    width: 20vw;
 }
-
-.dashboard-cards .card-title .img{
-    width: 10px;
-    height: 10px;
+.dashboard-cards .card .image_container{
+    width: 175px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 1px solid rgb(18, 62, 145);
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0;
+}
+.dashboard-cards .card .image_container img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
 }
 .dashboard-cards .card:hover {
     box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
