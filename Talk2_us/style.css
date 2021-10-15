@@ -1,0 +1,49 @@
+
+/* ----------------- BODY STYLING ------------------ */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+  font-weight: 300;
+
+  background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #F0FFFF, #F0FFFF);
+    background: linear-gradient(to right, #F0FFFF, #F0FFFF);
+    min-height: 100vh;
+  
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+/* -------------- FIRST PAGE STYLING --------------- */
+.firstPage {
+  height: 100vh;
+  background-image: url("./Images/incentives.jpeg") no-repeat center center fixed;
+  /* background: url(images/bg.jpg) no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+#firstPageContent {
+  height: 100vh;
+  background-image: url("./Village\ square.jpg");
+  background-size: cover;
+}
+#firstPageSpace {
+  display: flex;
+  height: 90vh;
+  align-items: flex-end;
+}
+#firstPageText {
+  padding: 1vh 5%;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 2vh;
+}
+#bigText {
+  font-size: 9vh;
+}
+
+
