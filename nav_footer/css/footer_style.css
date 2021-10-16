@@ -1,0 +1,151 @@
+.footer-main {
+	padding: 92px 0;
+	background: #1a1b1f;
+}
+
+@media (max-width: 768px) {
+	.footer-main {
+		padding: 50px 0;
+	}
+}
+
+.footer-main .block img {
+	margin-bottom: 20px;
+}
+
+.footer-main .block img #small-Apps {
+	fill: red;
+}
+
+.footer-main .block ul.social-icon li a {
+	text-decoration: none;
+	display: block;
+	width: 38px;
+	height: 38px;
+	border-radius: 100%;
+	background: #3f3f43;
+	color: #fff;
+	text-align: center;
+	line-height: 38px;
+}
+
+@media (max-width: 768px) {
+	.footer-main .block {
+		margin-bottom: 40px;
+	}
+}
+
+.footer-main .block .address {
+	font-size: 12px;
+	color: #6f6f71;
+}
+
+.footer-main .block .address a:hover {
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.footer-main .block-2 h6 {
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+.footer-main .block-2 ul {
+	padding: 0;
+}
+
+.footer-main .block-2 ul li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.footer-main .block-2 ul li a {
+	font-size: 14px;
+	color: #6f6f71;
+	transition: .2s ease;
+	text-decoration: none;
+}
+
+.footer-main .block-2 ul li a:hover {
+	color: #fff;
+}
+
+.footer-classic {
+	background: #fafafa;
+	text-align: center;
+	padding: 110px 0;
+}
+
+.footer-classic ul.social-icons {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+	.footer-classic ul.social-icons li {
+		margin-bottom: 10px;
+	}
+}
+
+.footer-classic ul.social-icons li a {
+	padding: 0 20px;
+	display: block;
+}
+
+.footer-classic ul.social-icons li a i {
+	font-size: 25px;
+	color: #000;
+}
+
+.footer-classic ul.footer-links li a {
+	padding: 0 10px;
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #000;
+}
+
+.social-links:hover .ti-facebook {
+	color: rgb(66, 103, 178);
+}
+
+.social-links:hover .ti-twitter {
+	color: rgb(29, 161, 242);
+}
+
+.social-links:hover .ti-instagram {
+	color: rgb(255, 80, 80);
+}
+
+.icon-box {
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	background: #2e7eed;
+}
+
+.icon-box i {
+	line-height: 80px;
+	font-size: 30px;
+}
+
+hr {
+	display: block;
+	height: 2px;
+	border: 0;
+	border-top: 2px solid #26a6bd;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.footer-img{
+	max-width: 370px;
+	opacity: 0.1;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translate(-50%,-0%);
+}
