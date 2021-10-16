@@ -1620,7 +1620,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-menu-toggle {
     z-index: 101;
     display: none;
-    background-color: var(--mblue);
+    background-color: #366feb75;
     height: 4.8rem;
     width: 5.2rem;
     line-height: 4.8rem;
@@ -1632,7 +1632,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: none;
     -webkit-transition: all .3s;
     transition: all .3s;
-    position: absolute;
+    position: fixed;
     right: 3.2rem;
     top: .6rem;
 }
@@ -1669,7 +1669,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
 }
-
+@media (max-width:800px) {
+    .s-header::before{
+        background-color: #366feb75;
+    }
+}
 .header-menu-toggle span::before {
     top: -.7rem;
 }
@@ -2733,5 +2737,13 @@ h2, h3, h4, h5,p {margin:0px;}
 @media (max-width: 768px) {
   .item {width:70%;}
 }
-
+#suresh-img{
+    height: 150px;
+}
+@media (max-width:770px) {
+    #suresh-img{
+        height: auto;
+        max-height: 530px;
+    }
+}
 /* ---- UI Style Ent ----- */
