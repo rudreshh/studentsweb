@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:300,400,600,700,800");
 
+
+html {
+	overflow-x: hidden;
+}
 body {
 	font-family: "Open Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -2206,7 +2210,7 @@ hr {
 	}
 }
 
-.mr-auto h1 {
+#logo-part div h1 {
 	font-size: 25px;
 	font-family: 'Arya', sans-serif;
 	flex-shrink: 0;
@@ -2221,12 +2225,12 @@ hr {
 }
 
 @media (max-width: 550px) {
-	.mr-auto h1 {
+	#logo-part div h1 {
 		font-size: 18px;
 	}
 }
 
-.mr-auto h1::before {
+#logo-part div h1::before {
 	content: "INDIAN INSTITUTE OF TECHNOLOGY MANDI";
 	animation: animate infinite 8s;
 	padding-left: 10px;
