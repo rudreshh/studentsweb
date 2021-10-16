@@ -17,13 +17,16 @@ body, p {
 	color: #53575a; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
+.bg-gray{
+	background-color: rgb(231, 232, 233);
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
 	width: 100%;
 	height: 100vh;
-	background: url(../images/social/NSS4.jpg) top center;
+	background: url(../images/social/bg.jpg) top center;
 	background-size: cover;
 	position: relative;
 }
@@ -142,6 +145,7 @@ a:hover {
 }
 .programs .text-container .prog_desp{
 	font-size: 1.2em;
+	text-align: justify;
 }
 @media (max-width: 1220px) {
 	.programs .image-section{
@@ -208,17 +212,23 @@ a:hover {
 	}	
 }
 
-.programs .text-container .know_more{
+.programs .text-container .learn_more{
 	margin-top: 10px;
 	padding: 4px;
 	border-radius: 4px;
 	background-color: #007bff;
 	border: 1px solid black;
 }
-.programs .text-container .know_more a{
+.programs .text-container .learn_more a{
 	color: rgb(255, 255, 255);
 	font-size: 16px;
 	text-decoration: none;
+}
+.programs .text-container .learn_more:hover{
+	background-color: rgb(217, 223, 224);;
+}
+.programs .text-container .learn_more:hover a{
+	color: rgb(0,0,0);
 }
 .footer-main {
 	padding: 92px 0;
