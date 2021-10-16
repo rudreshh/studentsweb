@@ -2224,6 +2224,11 @@ hr {
 		font-size: 18px;
 	}
 }
+@media (max-width: 440px) {
+	.mr-auto h1 {
+		font-size: 12px;
+	}
+}
 
 .mr-auto h1::before {
 	content: "INDIAN INSTITUTE OF TECHNOLOGY MANDI";
