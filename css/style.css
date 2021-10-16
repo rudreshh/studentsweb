@@ -72,11 +72,12 @@ cite {
 }
 
 #navbar-part {
-	top: 81px;
+	top: 85px;
 }
 
+
 .navbar-brand:hover {
-	color: inherit;
+	color: black;
 }
 
 .form-control::-webkit-input-placeholder {
