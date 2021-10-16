@@ -180,11 +180,6 @@ a {
 	color: inherit;
 }
 
-a:focus,
-a:hover {
-	color: #2e7eed;
-	text-decoration: none;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
