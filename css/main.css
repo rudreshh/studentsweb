@@ -1706,6 +1706,7 @@ selective headings blue
 
 .h-blue{
     color: #1f469b;
+    font-weight: bold;
 }
 
 
@@ -2706,11 +2707,12 @@ h2, h3, h4, h5,p {margin:0px;}
      width:150px;
      display:inline-block;
      margin:20px;
+     padding-bottom: 1em;
 }
 .item .image {overflow-x:hidden; }
 .item .image img { width:100%; }
 
-.item .text {padding:1em; text-align:center;}
+.item .text {padding:0em; text-align:center;}
 .item .text figcaption {position:relative; z-index:1; }
 .item .text a {color:rgba(0,0,0,0.70);}
 .item .text p {
