@@ -1,0 +1,288 @@
+
+
+/* ----------------- BODY STYLING ------------------ */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+
+/* -------------- FIRST PAGE STYLING --------------- */
+.firstPage {
+  height: 100vh;
+  
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+#firstPageContent {
+  background: url('./Images/front.jpeg');
+  background-size: cover;
+  height: 100vh;
+}
+#firstPageSpace {
+  display: flex;
+  height: 90vh;
+  align-items: flex-end;
+}
+#firstPageText {
+  background-color: rgba(255,255,255,0.8);
+  padding: 1vh 5%;
+  font-size: 2vh;
+}
+#bigText {
+  font-size: 9vh;
+}
+#firstPageFooter {
+  font-size: 1.5vw;
+  position: fixed;
+  z-index: 1;
+  font-weight: 400;
+}
+
+/* -------------- SECOND PAGE STYLING --------------- */
+.secondPage {
+  display: flex;
+  align-items: center;
+  margin: 0px 5vw;
+  min-height: 80vh;
+  font-size: 2.5vh;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+#invitationImage {
+  width: 55%;
+  height: 40vh;
+}
+#invitation {
+  margin: 1.5vh 3vw;
+}
+#invitationTitle {
+  font-size: 5.5vh;
+  margin-bottom: 1vh;
+}
+
+
+
+/* --------------- EXPERIENCES STYLING ----------- */
+#thirdPage {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 5vh 0vh;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+#thirdPageTitle {
+  padding-left: 25%;
+  padding-bottom: 5vh;
+
+  font-size: 5.5vh;
+  font-weight: 350;
+}
+
+/* ----- -SLIDING CARDS TEMPELATE----- */
+/* Slideshow container */
+.slide_cards {
+  max-width: 1200px;
+  position: relative;
+  padding: 0px 10vw;
+  margin: auto;
+}
+/* Hide the images by default */
+.mycards {
+  display: none;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(153, 153, 153, 0.8);
+}
+/* Position the "next button" to the right */
+.next {
+  right: 10vw;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* The dots/bullets/indicators */
+#dots {
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*------- EXPERIENCES CARD STYLING --------*/
+.card-wrapper {
+  display: flex;
+  min-height: 70vh;
+  justify-content: flex-end;
+  padding-right: 6vw;
+  background-color: #1a1b1f;
+  border-radius: 5px;
+  color: #f9f9f9;
+  font-size: 1.9vh;
+  align-items: center;
+}
+.card-content-wrapper {
+  width: 90%;
+  padding: 5vh 0vw;
+}
+.card-heading {
+  font-size: 4.5vh;
+  line-height: 1.2;
+}
+
+
+@media screen and (min-width: 950px) {
+  .navbarLeft .icon{
+    display: none;
+  }
+  #firstPageText {
+    font-size: 2.9vh;
+  }
+  .card-wrapper {
+    padding-left: 0vw;
+  }
+  #firstPageFooter {
+    font-size: 1.5vw;
+    left: 5vw;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #firstPageFooter {
+    font-size: 2.3vw;
+    margin-bottom: 2vh;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #bigText{
+    font-size: 8vh;
+  }
+
+  #thirdPageTitle{
+    padding-left: 13%;
+    font-size: 5vh;
+  }
+  #firstPageFooter {
+    font-size: 2.2vw;
+    left: 5vw;
+    margin-bottom: 2vh;
+  }
+  .secondPage {
+    display: block;
+    padding: 5vh 0vw;
+    font-size: 2.1vh;
+  }
+  #invitationImage {
+    border-radius: 1rem;
+    width: 60vw;
+  }
+  #invitationImage {
+    margin-left: 6vw;
+    border-radius: 1rem;
+    width: 45vw;
+    height: 30vw;
+  }
+  #invitation {
+    margin-top: 2vh;
+    margin-left: 6vw;
+  }
+}
+@media screen and (max-width: 950px) {
+  
+  #bigText{
+    font-size: 7vh;
+  }
+  #firstPageText{
+    font-size: 2.6vh;
+  }
+  #firstPageFooter {
+    font-size: 2.5vw;
+  }
+  #invitationImage {
+    margin-left: 6vw;
+    border-radius: 1rem;
+    width: 56vw;
+    height: 40vw;
+  }
+}
+@media screen and (max-width: 850px) {
+  #firstPageFooter {
+    font-size: 2.5vw;
+    left: 5vw;
+  }
+  #bigText{
+    font-size: 6vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  #firstPageFooter {
+    font-size: 3vw;
+    left: 5vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  #firstPageFooter {
+    font-size: 3vw;
+  }
+  .secondPage {
+    font-size: 1.8vh;
+  }
+}
+
