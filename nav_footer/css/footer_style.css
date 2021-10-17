@@ -149,3 +149,12 @@ hr {
 	top: 35%;
 	transform: translate(-50%,-0%);
 }
+
+#footer_copyright{
+	display: block;
+	background: #1a1b1f ;
+	border-color:#1a1b1f ;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}
