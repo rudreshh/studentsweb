@@ -43,10 +43,33 @@
 	color: white !important;
 }
 
+#logo-part div h2 {
+	font-size: 25px;
+	font-family: 'Arya', sans-serif;
+	flex-shrink: 0;
+}
+
+
 @media (max-width: 550px) {
-	#logo-part div h1 {
-		font-size: 18px;
+	#logo-part div h1{
+		display: none;
 	}
+	#logo-part div h2::before {
+		content: "I.I.T. MANDI";
+		animation: animateshort infinite 8s;
+		padding-left: 10px;
+	}
+	
+	@keyframes animateshort {
+	
+		0% {
+			content: "I.I.T. MANDI";
+		}
+	
+		50% {
+			content: "भा. प्रौ. सं. मण्डी ";
+		}
+}
 }
 
 #logo-part div h1::before {
