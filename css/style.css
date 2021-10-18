@@ -4374,8 +4374,9 @@ hr {
 /*---------------------FAQ SECTION-----------------------------*/
 
 .int_cont {
-	padding-left: 40%;
-	padding-bottom: 20px;
+	display: flex;
+justify-content: center;
+padding-bottom: 40px;
   }
 
 .faqs {
