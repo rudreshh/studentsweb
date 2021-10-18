@@ -527,34 +527,6 @@ button:focus,
 	color: #ffffff;
 }
 
-.footer-main .block-2 h6 {
-	font-weight: bold;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #fff;
-	margin-bottom: 25px;
-}
-
-.footer-main .block-2 ul {
-	padding: 0;
-}
-
-.footer-main .block-2 ul li {
-	margin-bottom: 10px;
-	list-style: none;
-}
-
-.footer-main .block-2 ul li a {
-	font-size: 14px;
-	color: #6f6f71;
-	transition: .2s ease;
-	text-decoration: none;
-}
-
-.footer-main .block-2 ul li a:hover {
-	color: #fff;
-}
-
 .footer-classic {
 	background: #fafafa;
 	text-align: center;
@@ -686,38 +658,6 @@ button:focus,
 }
 
 .jd-modal .modal-content .modal-header .modal-title {
-	color: #000;
-}
-
-.jd-modal .modal-content .modal-body .block-2 {
-	display: flex;
-	margin-bottom: 70px;
-}
-
-.jd-modal .modal-content .modal-body .block-2 .title {
-	width: 30%;
-}
-
-.jd-modal .modal-content .modal-body .block-2 .title p {
-	color: #000;
-}
-
-.jd-modal .modal-content .modal-body .block-2 .details {
-	width: 70%;
-}
-
-.jd-modal .modal-content .modal-body .block-2 .details ul {
-	padding-left: 0;
-	margin: 0;
-}
-
-.jd-modal .modal-content .modal-body .block-2 .details ul li {
-	list-style: none;
-	margin-bottom: 5px;
-}
-
-.jd-modal .modal-content .modal-body .block-2 .details ul li span {
-	padding-right: 5px;
 	color: #000;
 }
 
