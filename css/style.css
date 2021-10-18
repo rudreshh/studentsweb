@@ -4410,6 +4410,10 @@ hr {
 }
 /*---------------------FAQ SECTION-----------------------------*/
 
+.int_cont {
+	padding-left: 40%;
+	padding-bottom: 20px;
+  }
 
 .faqs {
 	max-width: 800px;
