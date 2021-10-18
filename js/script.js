@@ -64,7 +64,7 @@
 		//  Video Replace
 		// -----------------------------
 		$('.video-box i').click(function () {
-			var video = '<iframe class="border-0" allowfullscreen src="https://www.youtube.com/watch?v=LFx_d2d3ZH4"' + $(this).attr('data-video') + '"></iframe>';
+			var video = '<iframe class="border-0" allowfullscreen src="' + $(this).attr('data-video') + '"></iframe>';
 			$(this).replaceWith(video);
 		});
 
